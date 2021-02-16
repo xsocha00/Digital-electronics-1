@@ -4,7 +4,7 @@
      
 ## Part 2: Verification of De Morgan's laws of function f(c,b,a)
 
-###  Table:
+####  Table:
 | **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)nand** | **f(c,b,a)nor** | 
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 | 
@@ -16,7 +16,7 @@
 | 1 | 1 | 0 | 0 | 0 | 0 |
 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-### Code:
+#### Code:
 ```vhdl
 architecture dataflow of gates is
 begin
