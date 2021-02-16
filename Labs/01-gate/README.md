@@ -1,7 +1,7 @@
 # Labs 1 gates
 ## Part 1: link to repository
    
- 
+#### Link: https://github.com/xsocha00/Digital-electronics-1
      
 ## Part 2: Verification of De Morgan's laws of function f(c,b,a)
 
