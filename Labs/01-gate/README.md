@@ -46,6 +46,7 @@ begin
 end architecture dataflow;
 ```
 #### Screen:
+![distributive](https://github.com/xsocha00/Digital-electronics-1/blob/main/Labs/01-gate/Images/distributive.png)
 
 #### Link to EDA: https://www.edaplayground.com/x/TJSy
 
