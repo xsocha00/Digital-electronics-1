@@ -47,7 +47,7 @@ end architecture dataflow;
 ```
 #### Screen:
 
-#### Link to EDA:
+#### Link to EDA: https://www.edaplayground.com/x/TJSy
 
 
 
