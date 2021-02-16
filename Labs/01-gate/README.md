@@ -31,5 +31,5 @@ end architecture dataflow;
 ```
 
 ####Screen:
-![Screenshot od EDA Playground](Images/screenshot_eda.png)
+![alt text]
 
