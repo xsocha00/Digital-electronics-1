@@ -30,6 +30,6 @@ begin
 end architecture dataflow;
 ```
 
-####Screen:
+#### Screen:
 ![demorgan](https://github.com/xsocha00/Digital-electronics-1/blob/main/Labs/01-gate/Images/demorgan.png)
 
