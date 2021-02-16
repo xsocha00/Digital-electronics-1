@@ -31,5 +31,5 @@ end architecture dataflow;
 ```
 
 ####Screen:
-![Logo](../../demorgan.jpg)
+![Screenshot od EDA Playground](Images/screenshot_eda.png)
 
