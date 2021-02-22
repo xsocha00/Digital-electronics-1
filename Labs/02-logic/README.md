@@ -192,6 +192,6 @@ end architecture testbench;
 
 #### Console output with error
 
-![console](Images/console.png)
+![console](Images/console.jpg)
 
 #### Link to EDA: https://www.edaplayground.com/x/sA3L
