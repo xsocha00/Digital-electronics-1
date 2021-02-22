@@ -22,7 +22,7 @@
 
 ## Part 2: 2-bit comparator
 
-
+![maps](Images/maps.jpg)
 
 #### Link to EDA: https://www.edaplayground.com/x/tmeH
 
@@ -192,16 +192,6 @@ end architecture testbench;
 
 #### Console output with error
 
-[2021-02-22 12:54:27 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
-analyze design.vhd
-analyze testbench.vhd
-elaborate tb_comparator_2bit
-testbench.vhd:51:9:@0ms:(report note): Stimulus process started
-testbench.vhd:77:9:@400ns:(assertion error): Test failed for input combination: 1000, 0011
-testbench.vhd:131:9:@1100ns:(report note): Stimulus process finished
-Finding VCD file...
-./dump.vcd
-[2021-02-22 12:54:28 EST] Opening EPWave...
-Done
+![console](Images/console.png)
 
 #### Link to EDA: https://www.edaplayground.com/x/sA3L
