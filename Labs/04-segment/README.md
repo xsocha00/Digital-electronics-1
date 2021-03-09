@@ -23,6 +23,7 @@
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 #### Connection of 7-segment displays:
+
 | **Anode pin** | **Display** | **Active** |
 | :-: | :-: | :-: | :-: |
 | J17 | 7 | LOW | 
