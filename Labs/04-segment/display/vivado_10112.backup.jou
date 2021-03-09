@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  9 15:41:11 2021
+# Process ID: 10112
+# Current directory: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4860 C:\Users\Jakub\Desktop\Skola\VUT\druhak\2\DE1\Cp\Digital-electronics-1\Labs\04-segment\display\display.xpr
+# Log file: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/vivado.log
+# Journal file: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd w ]
+add_files -fileset sim_1 C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_hex_7seg.tcl
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+add_bp {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} 92
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+remove_bps -file {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} -line 92
+add_bp {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} 86
+remove_bps -file {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} -line 86
+add_bp {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} 92
+remove_bps -file {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd} -line 92
+close_sim

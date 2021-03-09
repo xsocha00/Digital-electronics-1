@@ -1,0 +1,526 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 11052
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Mar 09 21:49:31 CET 2021
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x1024
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Jakub
+User home directory: C:/Users/Jakub
+User working directory: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: D:/APPZ/Vivado
+HDI_APPROOT: D:/APPZ/Vivado/2020.2
+RDI_DATADIR: D:/APPZ/Vivado/2020.2/data
+RDI_BINDIR: D:/APPZ/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/APPZ/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/vivado.log
+Vivado journal file location: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/vivado.jou
+Engine tmp dir: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/.Xil/Vivado-11052-DESKTOP-R5C6G1B
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/APPZ/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/APPZ/Vivado/2020.2
+XILINX_VIVADO: D:/APPZ/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/APPZ/Vivado/2020.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,018 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Jakub\Desktop\Skola\VUT\druhak\2\DE1\Cp\Digital-electronics-1\Labs\04-segment\display\display.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+121807kb) [00:00:11]
+// [Engine Memory]: 1,018 MB (+915888kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2582 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/APPZ/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 55 MB. Current time: 3/9/21, 9:49:31 PM CET
+// Project name: display; location: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 128 MB (+4177kb) [00:00:23]
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m
+selectCodeEditor("top.vhd", 200, 334); // bP
+selectCodeEditor("top.vhd", 199, 327); // bP
+selectCodeEditor("top.vhd", 201, 317); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 194, 309); // bP
+// Elapsed time: 29 seconds
+selectCodeEditor("top.vhd", 218, 393); // bP
+selectCodeEditor("top.vhd", 105, 438); // bP
+selectCodeEditor("top.vhd", 107, 434); // bP
+selectCodeEditor("top.vhd", 111, 434, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("top.vhd", 131, 436); // bP
+selectCodeEditor("top.vhd", 68, 390); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+selectCodeEditor("top.vhd", 23, 219); // bP
+selectCodeEditor("top.vhd", 16, 203); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+selectCodeEditor("top.vhd", 32, 181); // bP
+selectCodeEditor("top.vhd", 196, 370); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("top.vhd", 188, 333); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+selectCodeEditor("top.vhd", 197, 322); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+selectCodeEditor("top.vhd", 21, 168); // bP
+selectCodeEditor("top.vhd", 8, 378); // bP
+// Elapsed time: 57 seconds
+selectCodeEditor("top.vhd", 5, 570); // bP
+// Elapsed time: 72 seconds
+selectCodeEditor("top.vhd", 36, 559); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+selectCodeEditor("top.vhd", 25, 553); // bP
+selectCodeEditor("top.vhd", 31, 620); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+// [GUI Memory]: 136 MB (+746kb) [00:07:46]
+// Elapsed time: 290 seconds
+selectCodeEditor("top.vhd", 209, 608); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 38, 415); // bP
+selectCodeEditor("top.vhd", 11, 415); // bP
+selectCodeEditor("top.vhd", 6, 539); // bP
+selectCodeEditor("top.vhd", 7, 521); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 206, 428); // bP
+selectCodeEditor("top.vhd", 113, 677); // bP
+selectCodeEditor("top.vhd", 61, 240); // bP
+selectCodeEditor("top.vhd", 0, 264); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 206 seconds
+selectCodeEditor("top.vhd", 320, 691); // bP
+// Elapsed time: 501 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+dismissDialog("Add Sources"); // c
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+// Elapsed time: 12 seconds
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Elaboration]", 2, false); // B
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B
+// Elapsed time: 30 seconds
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+// Elapsed time: 13 seconds
+dismissDialog("Settings"); // d
+unMinimizeFrame(PAResourceOtoP.PAViews_COMPILATION, "Log"); // az
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (cr): No Implementation Results Available: addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// cD (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 17 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar  9 22:14:46 2021] Launched synth_1... Run output will be captured here: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.runs/synth_1/runme.log [Tue Mar  9 22:14:46 2021] Launched impl_1... Run output will be captured here: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// [GUI Memory]: 143 MB (+467kb) [00:25:50]
+dismissDialog("Settings"); // d
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Failed: addNotify
+// Elapsed time: 239 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ag
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a
+// Tcl Command: 'file mkdir C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1'
+// C (cr): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 77 MB. Current time: 3/9/21, 10:19:36 PM CET
+// Elapsed time: 48 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "nexys-a7-50t"); // aa
+// Elapsed time: 40 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "Nexys A7-50T"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Constraints File"); // C
+// Elapsed time: 10 seconds
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 106 seconds
+// Tcl Command: 'file mkdir C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c
+// Tcl Message: file mkdir C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1/new 
+// Tcl Message: close [ open {C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1/new/Nexys A7-50T.xdc} w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 {{C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/constrs_1/new/Nexys A7-50T.xdc}} 
+// Elapsed time: 152 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys A7-50T.xdc]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys A7-50T.xdc]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys A7-50T.xdc]", 4, false, false, false, false, false, true); // D - Double Click
+typeControlKey((HResource) null, "Nexys A7-50T.xdc", 'v'); // bP
+// Elapsed time: 29 seconds
+selectCodeEditor("Nexys A7-50T.xdc", 3, 193); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("Nexys A7-50T.xdc", 424, 161); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("Nexys A7-50T.xdc", 0, 230); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("Nexys A7-50T.xdc", 272, 524); // bP
+// Elapsed time: 29 seconds
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectCodeEditor("Nexys A7-50T.xdc", 312, 395); // bP
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys A7-50T.xdc", 3); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("Nexys A7-50T.xdc", 1, 299); // bP
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: FILE_SET_CHANGE
+// bz (cr):  Save Constraints : addNotify
+// A (cr): Synthesis is Out-of-date: addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Save Project"); // am
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cr): Launch Runs: addNotify
+// Elapsed time: 11 seconds
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // e
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 15 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Mar  9 22:26:53 2021] Launched synth_1... Run output will be captured here: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.runs/synth_1/runme.log [Tue Mar  9 22:26:53 2021] Launched impl_1... Run output will be captured here: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 614 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 0); // m
+// Elapsed time: 30 seconds
+selectCodeEditor("hex_7seg.vhd", 26, 127); // bP
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "hex_7seg.vhd", 'c'); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("hex_7seg.vhd", 19, 25); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("hex_7seg.vhd", 28, 70); // bP
+typeControlKey((HResource) null, "hex_7seg.vhd", 'c'); // bP
+// Elapsed time: 53 seconds
+selectCodeEditor("hex_7seg.vhd", 146, 34); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectCodeEditor("tb_hex_7seg.vhd", 0, 111); // bP
+typeControlKey((HResource) null, "tb_hex_7seg.vhd", 'c'); // bP
+// Elapsed time: 47 seconds
+selectCodeEditor("tb_hex_7seg.vhd", 219, 659); // bP
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys A7-50T.xdc", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+// Elapsed time: 49 seconds
+selectCodeEditor("top.vhd", 26, 431); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("top.vhd", 237, 506); // bP
+selectCodeEditor("top.vhd", 25, 333); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 233 seconds
+selectCodeEditor("top.vhd", 235, 249); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 70 MB. Current time: 3/9/21, 10:49:36 PM CET
+// Elapsed time: 198 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+// Elapsed time: 19 seconds
+selectCodeEditor("top.vhd", 197, 600); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("top.vhd", 279, 607); // bP
+selectCodeEditor("top.vhd", 260, 619); // bP
+selectCodeEditor("top.vhd", 263, 615); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("top.vhd", 353, 120); // bP
+// Elapsed time: 142 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tb_top"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+// Elapsed time: 29 seconds
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 41 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_top.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_top.vhd 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 9); // D
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top(Behavioral) (tb_top.vhd)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top(Behavioral) (tb_top.vhd)]", 11, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("tb_top.vhd", 216, 536); // bP
+selectCodeEditor("tb_top.vhd", 16, 537); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys A7-50T.xdc", 3); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectCodeEditor("tb_top.vhd", 51, 540); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_top.vhd", 3); // m
+// Elapsed time: 44 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 9); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 7); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 9, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 9, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ah
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top top [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top(Behavioral) (tb_top.vhd)]", 10, false); // D
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_top.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset sim_1 C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_top.vhd 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+selectCodeEditor("top.vhd", 287, 75); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 2); // m
+// Elapsed time: 13 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+// Elapsed time: 18 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 8); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 8, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 8); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // D
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tb_top"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton
+dismissDialog("Create Source File"); // F
+selectButton("CANCEL", "Cancel"); // JButton
+// 'g' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 8); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(Behavioral) (tb_hex_7seg.vhd)]", 8); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // D
+closeMainWindow("display - [C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.xpr] - Vivado 2020.2"); // cr
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// am (cr): Save Project: addNotify

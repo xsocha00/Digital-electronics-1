@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  9 19:45:01 2021
+# Process ID: 11464
+# Current directory: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6176 C:\Users\Jakub\Desktop\Skola\VUT\druhak\2\DE1\Cp\Digital-electronics-1\Labs\04-segment\display\display.xpr
+# Log file: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/vivado.log
+# Journal file: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/04-segment/display/display.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_hex_7seg.tcl
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+run 0.8 us
+run 10 us
+run 1 us
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+run 08 us
+run 0.8 us
+run 1 us
+run 10 us
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+step
+step
+step
+step
+step
+step
+step
+run 20 ns
+run 20 ns
+run 20 ns
+close_sim
+launch_simulation
+source tb_hex_7seg.tcl
+set_property -name {xsim.simulate.runtime} -value {750ns} -objects [get_filesets sim_1]
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+launch_simulation
+reset_run synth_1
