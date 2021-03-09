@@ -25,7 +25,7 @@
 #### Connection of 7-segment displays:
 
 | **Anode pin** | **Display** | **Active** |
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: |
 | J17 | 7 | LOW | 
 | J18 | 6 | LOW | 
 | T9 | 5 | LOW | 
