@@ -209,4 +209,4 @@ end architecture Behavioral;
 
 ## Part 3: Eight-digit driver
 #### Image of the driver schematic
-![8driver](Images/8driver.jpg)
+![8driver](Images/8driver.png)

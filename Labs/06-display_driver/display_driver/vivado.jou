@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.xpr
+update_compile_order -fileset sources_1
