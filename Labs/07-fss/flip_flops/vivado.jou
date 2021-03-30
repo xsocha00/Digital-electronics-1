@@ -11,3 +11,11 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/flip_flops.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_d_ff_arst.tcl
+close_sim
+close [ open C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/flip_flops.srcs/sources_1/new/jk_ff_rst.vhd w ]
+add_files C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/flip_flops.srcs/sources_1/new/jk_ff_rst.vhd
+update_compile_order -fileset sources_1
