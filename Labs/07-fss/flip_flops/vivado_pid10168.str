@@ -1,0 +1,106 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 10168
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Mar 30 23:18:51 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x1024
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Jakub
+User home directory: C:/Users/Jakub
+User working directory: C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: D:/APPZ/Vivado
+HDI_APPROOT: D:/APPZ/Vivado/2020.2
+RDI_DATADIR: D:/APPZ/Vivado/2020.2/data
+RDI_BINDIR: D:/APPZ/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Jakub/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/APPZ/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/vivado.log
+Vivado journal file location: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/vivado.jou
+Engine tmp dir: 	C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/.Xil/Vivado-10168-DESKTOP-R5C6G1B
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/APPZ/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/APPZ/Vivado/2020.2
+XILINX_VIVADO: D:/APPZ/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/APPZ/Vivado/2020.2
+
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,018 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Jakub\Desktop\Skola\VUT\druhak\2\DE1\Cp\Digital-electronics-1\Labs\07-fss\flip_flops\flip_flops.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/flip_flops.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops/flip_flops.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Jakub/Desktop/Skola/VUT/druhak/2/DE1/Cp/Digital-electronics-1/Labs/07-fss/flip_flops' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+65478kb) [00:00:10]
+// [Engine Memory]: 1,018 MB (+916195kb) [00:00:10]
+// [GUI Memory]: 88 MB (+20407kb) [00:00:11]
+// [GUI Memory]: 109 MB (+18216kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2693 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/APPZ/Vivado/2020.2/data/ip'. 
